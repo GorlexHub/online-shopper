@@ -10,6 +10,7 @@ gem 'rails', '~> 5.2.1'
 gem 'sqlite3', group: [:development, :test]
 
  #postgres for production database
+ gem 'dotenv-rails', groups: [:development, :test]
  gem 'pg', group: :production
  # Use Puma as the app server
  #12 factor for heroku
