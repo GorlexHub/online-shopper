@@ -14,6 +14,8 @@ gem 'sqlite3', group: [:development, :test]
  # Use Puma as the app server
  #12 factor for heroku
  gem 'rails_12factor', group: :production
+#add Twitter Bootstrap
+gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
