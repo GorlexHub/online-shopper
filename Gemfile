@@ -15,6 +15,12 @@ gem 'sqlite3', group: [:development, :test]
  # Use Puma as the app server
  #12 factor for heroku
  gem 'rails_12factor', group: :production
+
+ gem 'activeadmin', github: 'activeadmin/activeadmin'
+ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+ gem 'devise'
+
 #stripe for taking payment
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 #add Twitter Bootstrap
