@@ -19,6 +19,8 @@ gem 'sqlite3', group: [:development, :test]
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 #add Twitter Bootstrap
 gem 'bootstrap-sass'
+
+gem 'letter_opener', group: :development
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
